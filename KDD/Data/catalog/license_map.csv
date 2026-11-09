@@ -1,0 +1,7 @@
+path,provenance,terms
+code/atlas_data.py; code/vqc_atlas.py; code/rebuild_targets.py,New atlas tooling,Apache-2.0
+code/compact_horner.py; code/banked_angles.py; selected/invsqrt.kmb,Modified Sumit Chongder public source,Apache-2.0 as published; attribution retained
+code/memory_schedule.py,Supplied Signed-Digit Memory notebook and its source credits,Apache-2.0 notice retained
+source/decoder_input.kmb; selected/dqi.kmb,k256.dev compiled decoder; Artem1410 simplification; exact implication postpass,Original authors terms; full upstream ownership/license chain not independently established; no relicensing
+selected/dfthcsos/*,"Kozykappa factor compression, Artem1410 norm optimization, modified Sumit loader",Retained upstream terms and notices; loader code Apache-2.0
+fusion/*; dqi/*; chemistry/*,Derived numeric targets and public-distribution diagnostics,New generation code Apache-2.0; source circuit/factor terms retained

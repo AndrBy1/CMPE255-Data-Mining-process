@@ -1,0 +1,9 @@
+{
+  "user_reported_baseline_lb": 5.5191,
+  "selected_new_confirmed_lb": null,
+  "local_projection": 5.663396402148851,
+  "hardware_projection_with_fixed_decoder_penalty": 5.672053788455644,
+  "claim": "This dataset reproduces the V5 optimized portfolio; it does not establish an additional leaderboard gain.",
+  "selected_profile": "v5-memory91-banked5",
+  "seed_search": false
+}

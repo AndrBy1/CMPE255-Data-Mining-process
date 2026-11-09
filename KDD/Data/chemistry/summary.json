@@ -1,0 +1,54 @@
+{
+  "selection_count": 3976,
+  "angle_count": 75,
+  "batch_size": 5,
+  "brot": 10,
+  "table_shape": [
+    15,
+    3976,
+    5
+  ],
+  "factor_shape": [
+    65,
+    60,
+    30
+  ],
+  "selected_resources": {
+    "brot": 10,
+    "keep_bits": 10,
+    "angles_toffoli_per_pass": 31860.0,
+    "angles_toffoli": 63720.0,
+    "angles_qubits": 122,
+    "angles_selection_qubits": 12,
+    "angles_persistent_qubits": 50,
+    "angles_temporary_qubits": 60,
+    "outer_state_prep_toffoli": 627,
+    "inner_state_prep_toffoli": 5317,
+    "givens_rotations_toffoli": 2850,
+    "outer_state_prep_persistent_qubits": 44,
+    "outer_state_prep_temporary_qubits": 185,
+    "outer_state_prep_qubits": 229,
+    "inner_state_prep_persistent_qubits": 44,
+    "inner_state_prep_temporary_qubits": 543,
+    "inner_state_prep_qubits": 587,
+    "heuristic_persistent_qubits": 88,
+    "heuristic_temporary_qubits": 543,
+    "heuristic_toffoli": 8794,
+    "heuristic_qubits": 631,
+    "persistent_qubits": 138,
+    "temporary_qubits": 543,
+    "toffoli": 72514.0,
+    "qubits": 681,
+    "angles_within_cap": true
+  },
+  "identity": "For address a=2h+l: target ^= even[h] ^ (l * xor_difference[h]).",
+  "physical_metrics": {
+    "error_1": 0.013911731985010084,
+    "error_2": 0.019980679640671652,
+    "Lambda": 290.75420549931385,
+    "E_SOS": -22144.18928562151,
+    "E_gap": 3.9159356215095613,
+    "lambda_eff": 47.558542335159316,
+    "gap_in_domain": true
+  }
+}

@@ -1,0 +1,14 @@
+#/KDD/Data/catalog
+#/KDD/Data/chemistry
+KDD/Data/code
+KDD/Data/dqi
+KDD/Data/experiments
+KDD/Data/fusion
+KDD/Data/licenses
+#/KDD/Data/notebooks
+KDD/Data/selected
+KDD/Data/source
+KDD/Data/verification
+
+.venv
+venv
