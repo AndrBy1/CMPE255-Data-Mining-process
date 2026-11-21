@@ -89,8 +89,6 @@ The following preparation steps are recommended before modeling:
 
 ## 4. Model
 
-The modeling stage should answer two related but separate questions.
-
 ### Performance segmentation
 
 Use standardized latency, read, and write features to cluster modules into performance tiers, with `gen` retained for interpretation rather than used as an unexamined numeric input. A suitable starting point is k-means with several candidate values of `k`, compared using silhouette score and stability across random seeds. A generation-stratified baseline should be retained for comparison.
@@ -126,8 +124,6 @@ Price models should exclude any feature calculated from price and should clearly
 5. The observed price relationship is weaker than the read/write relationship, suggesting that generation, vendor, capacity, and market availability likely matter in addition to benchmark performance.
 
 ## 6. Recommended output
-
-A final SEMMA report or dashboard should include:
 
 - generation counts and missing-price counts;
 - distributions of latency, read, and write;

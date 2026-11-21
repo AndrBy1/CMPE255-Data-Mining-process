@@ -15,13 +15,6 @@ The business problem is to understand how AI-agent security events have changed 
 3. How do confirmed harm and severity differ across entry types and attack categories?
 4. Which security controls should be prioritized based on the observed patterns?
 
-### Success criteria
-
-- Produce reproducible counts and trend summaries from the supplied CSV files.
-- Separate observed incidents from vulnerabilities, research, policy entries, and reports.
-- Identify recurring attack categories and high-risk combinations without overstating causality.
-- Translate the findings into practical security-control recommendations.
-
 ## 2. Data understanding
 
 The source bibliography is in `Security data/sources_bibliography.txt`. The source dataset contains documented AI-agent exploits, prompt injections, jailbreaks, vulnerabilities, policy events, research findings, and threat reports. The cleaned analysis file is `ai_agent_incidents_clean.csv`; the fuller source-oriented file is `ai_agent_incidents_full.csv`.
@@ -114,10 +107,3 @@ Refresh the archive on a defined schedule, preserve historical snapshots, dedupl
 ## 7. Limitations
 
 This is a curated, source-dependent archive rather than a random sample of all AI-agent activity. It has no exposure denominator, so it cannot estimate the probability of attack or compare organizations fairly. Records may represent the same underlying event from different perspectives, dates may have different precision, and taxonomy and severity labels depend on the dataset's curation rules. Findings should be used for prioritization and hypothesis generation, not causal claims or precise forecasting.
-
-## Suggested revisions to the original sections
-
-- Replace “personal growth” with “organizational resilience, reliability, and customer privacy”; security is being framed as a business-risk and trust issue.
-- State that the archive covers 2024–2026 and contains more than incidents, including research, policy, vulnerability, and report entries.
-- Define what “security incidents” means in the project, since the file's `incident_kind` field distinguishes several types of evidence.
-- Add the collection-date and source-quality caveats above before interpreting the 2026 increase.

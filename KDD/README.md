@@ -128,14 +128,6 @@ These comparisons reflect the composition of the source data as much as labor-ma
 
 The strongest consistent pattern is the association between experience level and salary, with additional differences across role families. The dataset also suggests that location and role specialization are important segmentation variables. However, the analysis cannot establish causal effects because it is observational and does not contain a controlled sample, employer-level identifiers, benefits, equity, or complete job-scope information.
 
-Evaluation should include:
-
-- comparing mean and median results;
-- reporting sample sizes and interquartile ranges;
-- repeating results after excluding flagged outliers;
-- checking whether findings remain for the dominant 2024–2025 years;
-- restricting geography comparisons to adequately represented countries;
-- comparing a simple baseline with any predictive extension using a time-based holdout.
 
 ## 8. Deployment and use
 

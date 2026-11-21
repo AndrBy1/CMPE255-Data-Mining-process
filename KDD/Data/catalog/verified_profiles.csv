@@ -1,4 +1,0 @@
-task,profile,validation_scope,qubits,cost,shots,static_toffolis,mean_toffolis,rotations,rotation_epsilon,value_errors,phase_errors,lambda_eff,full_verified,report
-invsqrt,selected_v5,full local task check,91,173002.7486137991,200540928,1584,1572.9997967397458,45.0,1.5209958331996073e-13,0,0,,True,verification/fusion_full_report.json
-dqi,selected_v5,full local task check,1818,2307647381280.9233,102400,583505,583424.909375,,,1,0,,True,verification/dqi_full_report.json
-dfthcsos,selected_v5,full local task check,681,2348537554.5852766,254464,,72514.0,,,0,0,47.558542335159316,True,verification/chemistry_full_report.json
